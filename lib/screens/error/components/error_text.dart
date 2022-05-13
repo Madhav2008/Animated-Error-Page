@@ -16,7 +16,9 @@ class ErrorText extends StatelessWidget {
           "../assets/icons/error_text.svg",
           height: 395,
         ),
-        const SizedBox(height: 30,),
+        const SizedBox(
+          height: 30,
+        ),
         FlatButton(
           padding: const EdgeInsets.symmetric(
             horizontal: 50,

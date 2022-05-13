@@ -70,7 +70,6 @@ class _BodyState extends State<Body> with SingleTickerProviderStateMixin {
                               SvgPicture.asset("../assets/icons/Group 64.svg"),
                         ),
                       ),
-                      // Cycle
                       AnimatedPositioned(
                         duration: duration,
                         bottom: 0,

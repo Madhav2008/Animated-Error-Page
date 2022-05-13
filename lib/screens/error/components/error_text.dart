@@ -11,7 +11,7 @@ class ErrorText extends StatelessWidget {
     return Column(
       children: [
         SvgPicture.asset(
-          "assets/icons/error_text.svg",
+          "../assets/icons/error_text.svg",
           height: 395,
         ),
         SizedBox(height: 30),

@@ -14,7 +14,7 @@ class _BodyState extends State<Body> with SingleTickerProviderStateMixin {
   final Duration duration = Duration(milliseconds: 500);
   bool startAnimation = false;
   bool startBroke = false;
-  AnimationController _animationController;
+  late AnimationController _animationController;
   @override
   void initState() {
     super.initState();

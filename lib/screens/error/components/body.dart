@@ -51,7 +51,7 @@ class _BodyState extends State<Body> with SingleTickerProviderStateMixin {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                ErrorText(),
+                const ErrorText(),
                 SizedBox(
                   width: 641,
                   height: 310,

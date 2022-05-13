@@ -88,7 +88,7 @@ class _BodyState extends State<Body> with SingleTickerProviderStateMixin {
                                   bottom: 7,
                                   left: 230 + _animationController.value * 90,
                                   child: SvgPicture.asset(
-                                    "assets/icons/cycle_part_2.svg",
+                                    "../assets/icons/cycle_part_2.svg",
                                     height: 142,
                                     width: 142,
                                   ),

@@ -18,11 +18,12 @@ class _BodyState extends State<Body> with SingleTickerProviderStateMixin {
   @override
   void initState() {
     super.initState();
-    _animationController =
-        AnimationController(duration: const Duration(milliseconds: 250), vsync: this,)
-          ..addListener(() {
-            setState(() {});
-          });
+    _animationController = AnimationController(
+      duration: const Duration(milliseconds: 250),
+      vsync: this,
+    )..addListener(() {
+        setState(() {});
+      });
     Future.delayed(Duration(milliseconds: 100), () {
       setState(() {
         startAnimation = true;

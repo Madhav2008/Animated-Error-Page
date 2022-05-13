@@ -109,7 +109,7 @@ class _BodyState extends State<Body> with SingleTickerProviderStateMixin {
                                   left: 0,
                                   bottom: 0,
                                   child:
-                                      SvgPicture.asset("assets/icons/line.svg"),
+                                      SvgPicture.asset("../assets/icons/line.svg"),
                                 )
                               ],
                             ),

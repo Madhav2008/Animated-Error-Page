@@ -99,7 +99,7 @@ class _BodyState extends State<Body> with SingleTickerProviderStateMixin {
                                     angle: (_animationController.value * 5) *
                                         (pi / 180),
                                     child: SvgPicture.asset(
-                                      "assets/icons/cycle_part_1.svg",
+                                      "../assets/icons/cycle_part_1.svg",
                                       height: 287,
                                     ),
                                   ),

@@ -21,7 +21,10 @@ class ErrorText extends StatelessWidget {
             vertical: 25,
           ),
           shape: const RoundedRectangleBorder(
-            side: BorderSide(color: Color(0xFF293047), width: 2,),
+            side: BorderSide(
+              color: Color(0xFF293047),
+              width: 2,
+            ),
             borderRadius: BorderRadius.all(
               Radius.circular(100),
             ),

@@ -30,7 +30,7 @@ class _BodyState extends State<Body> with SingleTickerProviderStateMixin {
       });
     });
 
-    Future.delayed(Duration(milliseconds: 700), () {
+    Future.delayed(const Duration(milliseconds: 700), () {
       _animationController.forward();
     });
   }

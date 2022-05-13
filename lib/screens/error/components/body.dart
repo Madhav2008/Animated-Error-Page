@@ -24,7 +24,7 @@ class _BodyState extends State<Body> with SingleTickerProviderStateMixin {
     )..addListener(() {
         setState(() {});
       });
-    Future.delayed(Duration(milliseconds: 100), () {
+    Future.delayed(const Duration(milliseconds: 100), () {
       setState(() {
         startAnimation = true;
       });

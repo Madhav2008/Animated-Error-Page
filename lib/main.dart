@@ -1,4 +1,4 @@
-import 'package:error/screens/error/error_screen.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {

@@ -26,7 +26,7 @@ class ErrorText extends StatelessWidget {
             "Back To Home".toUpperCase(),
             style: Theme.of(context)
                 .textTheme
-                .headline6
+                .headline6!
                 .copyWith(fontWeight: FontWeight.bold),
           ),
         )

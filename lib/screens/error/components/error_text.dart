@@ -16,7 +16,7 @@ class ErrorText extends StatelessWidget {
         ),
         const SizedBox(height: 30),
         FlatButton(
-          padding: EdgeInsets.symmetric(
+          padding: const EdgeInsets.symmetric(
             horizontal: 50,
             vertical: 25,
           ),

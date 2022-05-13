@@ -11,7 +11,7 @@ class Body extends StatefulWidget {
 }
 
 class _BodyState extends State<Body> with SingleTickerProviderStateMixin {
-  final Duration duration = Duration(milliseconds: 500);
+  final Duration duration = const Duration(milliseconds: 500);
   bool startAnimation = false;
   bool startBroke = false;
   late AnimationController _animationController;

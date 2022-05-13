@@ -67,7 +67,7 @@ class _BodyState extends State<Body> with SingleTickerProviderStateMixin {
                             opacity: startAnimation ? 1 : 0.3,
                             duration: duration,
                             child:
-                                SvgPicture.asset("assets/icons/Group 64.svg")),
+                                SvgPicture.asset("../assets/icons/Group 64.svg")),
                       ),
                       // Cycle
                       AnimatedPositioned(

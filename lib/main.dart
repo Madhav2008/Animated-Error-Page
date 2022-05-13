@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Animated Error',
+      title: 'Animated Error Page',
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
